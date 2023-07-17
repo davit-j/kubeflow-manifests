@@ -57,11 +57,3 @@ spec:
   resources:
     requests:
       storage: 2Gi
-  nodeAffinity:
-    required:
-      nodeSelectorTerms:
-      - matchExpressions:
-        - key: kubernetes.io/hostname
-          operator: In
-          values:
-          - gpu1
