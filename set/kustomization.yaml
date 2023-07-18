@@ -56,8 +56,8 @@ resources:
 
 
 # Kubeflow Pipelines
-- ../apps/pipeline/upstream/env/cert-manager/platform-agnostic-multi-user
-# - ../apps/pipeline/upstream/env/platform-agnostic-multi-user-emissary
+# - ../apps/pipeline/upstream/env/cert-manager/platform-agnostic-multi-user
+- ../apps/pipeline/upstream/env/platform-agnostic-multi-user-emissary
 # Katib
 - ../apps/katib/upstream/installs/katib-with-kubeflow
 # Central Dashboard
